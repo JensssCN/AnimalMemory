@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djur Memory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="start-game-container">
+        <h1>Djur Memory</h1>
+        <input id="player-1" placeholder="Namn på spelare 1:">
+        <input id="player-2" placeholder="Namn på spelare 2:">
+        <button class="start-game-btn">Starta</button>
+    </div>
+
+    <div class="game-container">
+        <div class="card-container">
+        </div>
+        <aside class="scoreboard">
+            <h2 class="current-player"></h2>
+            <h3 class="player-one-name"></h3>
+            <h3 class="player-two-name"></h3>
+            <h3 class="player-one-wins"></h3>
+            <h3 class="player-two-wins"></h3>
+            <button class="reset-game-btn">Börja om</button>
+        </aside>
+    </div>
+
+    <div class="winner-container">
+        <h1 class="winner-message"></h1>
+        <button class="restart-game-btn">Spela igen?</button>
+    </div>
+</body>
+
+</html>
